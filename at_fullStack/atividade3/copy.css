@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: "Sans-Serif", Arial, sans-serif;
+    background-color: lightgray; /* fundo geral */
+    color: indigo; /* cor do texto padrão */
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: bisque;
+    border: 2px solid darkgreen;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* imagem do cabeçalho */
+header img {
+    width: 70px;
+    height: 70px;
+    margin:0 20;
+}
+header h1 {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 24pt;
+    margin: 0;
+    font-family: serif;
+}
+
+/* Navegação */
+nav {
+    background-color: lightskyblue;
+    border-top: 2px solid darkgreen;
+    border-bottom: 2px solid darkgreen;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+nav li {
+    font-weight: bold;
+    font-size: 12pt;
+    color: darkred;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+h2, h3 {
+    font-weight: bold;
+    color: indigo;
+}
+p {
+    font-size: 16pt;
+    line-height: 1.4;
+    max-width: 800px;
+    margin: 10px auto 25px auto;
+}
+
+/* Seção de livros */
+.livros {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+.livros img {
+    width: 160px;
+    height: auto;
+    box-shadow: 0 0 6px #999;
+}
+
+/* Aprenda na FEI */
+.aprenda {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+.aprenda iframe, .aprenda img {
+    width: 320px;
+    height: 240px;
+    border: 1px solid indigo;
+}
+
+/* Tabela de contatos */
+table {
+    margin: 0 auto 30px auto;
+    border-collapse: collapse;
+    border: 1px dotted red;
+    font-size: 14px;
+    color: darkred;
+    width: 320px;
+}
+table th, table td {
+    border: 1px dotted red;
+    padding: 5px;
+}
+table th {
+    font-weight: bold;
+}
+
+/* Links de estudo */
+.sites-consulta {
+    background-color: yellow;
+    width: 320px;
+    margin: 0 auto 30px auto;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    color: black;
+}
+.sites-consulta a {
+    font-weight: bold;
+    color: darkred;
+    text-decoration: none;
+}
+.sites-consulta a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    background-color: bisque;
+    border-top: 2px solid darkgreen;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    border-bottom: 2px solid darkgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15pt;
+    color: black;
+}
+footer .left-logo, footer .right-logo {
+    width: 60px;
+    height: 60px;
+}
+footer .text {
+    text-align: center;
+    flex-grow: 1;
+}
