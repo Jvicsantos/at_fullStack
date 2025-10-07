@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: "Sans-Serif", Arial, sans-serif;
     background-color: lightgray; /* fundo geral */
-    color: indigo; /* cor do texto padrão */
+    color: black; /* cor do texto padrão */
     text-align: center;
 }
 
